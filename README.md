@@ -1,2 +1,2 @@
 # site
-trying to recreate https://trainofthoughttt.wixsite.com/blog
+My site, V2
