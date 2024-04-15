@@ -9,7 +9,8 @@ draft = true
 This online compiler was made to support a variety of compiler versions (and in the future, runtime environments / libraries) for C and C++ code. The most frightening part about the project was how to do code isolation, but that problem was solved using AWS Lambda.
 
 **Demo:** \
-https://www.youtube.com/watch?v=PM6lQ51qowQ
+{{< youtube id="PM6lQ51qowQ" title="Online Compiler" >}}
+<!-- https://www.youtube.com/watch?v=PM6lQ51qowQ -->
 
 **Source Code:** \
 https://github.com/roblee04/online-compiler
@@ -19,7 +20,10 @@ https://github.com/roblee04/online-compiler
 This is an eye tracking keyboard that works on any device with a webcam!
 
 **Demo:** \
-https://www.youtube.com/watch?v=kcG9jlgZPY8
+{{< youtube id="kcG9jlgZPY8" title="Eye Type" >}}
+<!-- https://www.youtube.com/watch?v=kcG9jlgZPY8 -->
+
+
 
 **Source Code:** \
 https://github.com/Bryzizzle/EyeType

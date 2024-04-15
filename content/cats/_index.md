@@ -3,7 +3,7 @@ title = 'Cats'
 date = 2024-03-31T17:15:26-07:00
 draft = true
 +++
-
+<!-- https://gohugo.io/content-management/shortcodes/ -->
 ## Mimi and Leo
 We got them at the start of COVID pandemic so they are currently ~4 years old!
 
@@ -13,7 +13,7 @@ Leo is a food motivated kitty. He likes scritches and chin scratches, wet cat fo
 
 I love both cats equally as they are both special in their own way.
 
-
+<!-- {{< figure src="elephant.jpg" title="An elephant at sunset" >}} -->
 ![photo](/cats/LeoMimi.jpg  'Leo and Mimi on a Tree' )
 
 ![photo](/cats/Leo1.jpg 'he confused as heck')

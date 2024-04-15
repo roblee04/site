@@ -18,6 +18,7 @@ I have a multitude of interests, but not enough time to explore them to a high d
 - Chaos Theory
 - Physics Simulations (Pendulums, Fluid)
 - Math (very broad)
+- Philosophy (very broad 2)
 
 # What are some of your normal interests?
 I like to do a lot of things for fun:
