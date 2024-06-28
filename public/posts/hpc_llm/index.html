@@ -3,18 +3,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Robins Website | Reflection</title>
-    <meta name="description" content=" ">
-    <link rel="canonical" href="http://localhost:1313/tags/reflection/" />
+    <title>Robins Website | Running a Large Language Model on my School Supercomputer</title>
+    <meta name="description" content="Teehee ">
+    <link rel="canonical" href="http://localhost:1313/posts/hpc_llm/" />
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <meta property="og:title" content="Reflection" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/tags/reflection/" />
+    <meta property="og:title" content="Running a Large Language Model on my School Supercomputer" />
+<meta property="og:description" content="Teehee" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/posts/hpc_llm/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-05-22T01:37:53-07:00" />
+<meta property="article:modified_time" content="2024-05-22T01:37:53-07:00" />
+<meta property="og:see_also" content="http://localhost:1313/posts/hardest_class/" /><meta property="og:see_also" content="http://localhost:1313/posts/lupinstory/" /><meta property="og:see_also" content="http://localhost:1313/posts/scu_things/" /><meta property="og:see_also" content="http://localhost:1313/posts/hello/" />
 
 
-    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Reflection"/>
-<meta name="twitter:description" content=""/>
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Running a Large Language Model on my School Supercomputer"/>
+<meta name="twitter:description" content="Teehee"/>
 
     
 
@@ -197,29 +200,41 @@
 
 
         <div id="content">
-    
 
 
 
 
-
-
-    
-        
-    
 
 
 
 
     <div class="hero">
         
-            
-                <div class="hero-img">
-                    <img class="lazyload" src="/images/thumbnail.gif" data-src="/thumbnails/pain.jpg" alt="">
-                </div>
-            
+            <div class="hero-img">
+                <img class="lazyload" src="/images/thumbnail.gif" data-src="/thumbnails/meta-ollama-llama3.png" alt="">
+            </div>
+        
         <div class="hero-content">
-            <h1 class="hero-title">Tag: Reflection</h1>
+            <div class="hero-title">Running a Large Language Model on my School Supercomputer</div>
+            <div class="hero-subtitle"></div>
+            <div class="hero-date">
+                    <span class="no-wrap"><i class="fa fa-calendar"></i> postedOn: 2024-5-22 &nbsp;</span>
+                    <span class="no-wrap"><i class="fa fa-calendar-check-o"></i> updatedOn: 2024-5-22 &nbsp;</span>
+                    <span class="no-wrap"><i class="fa fa-folder"></i>
+                        includedIn:
+                        
+                            <a href='
+                                /categories/projects
+                            '>
+                                Projects
+                            </a>
+                    </span>    
+            </div>
+            <div class="timelong">
+                <span class="no-wrap"><i class="fa fa-pencil"></i> wordsCount: 201 &nbsp;</span>
+                <span class="no-wrap"><i class="fa fa-clock-o"></i> readingTime: 1 min &nbsp;</span>
+                <span class="no-wrap"><i class="fa fa-eye"></i> viewers: <span id="busuanzi_value_page_pv"></span></span>
+            </div>
         </div>
     </div>
 
@@ -238,7 +253,7 @@
     
 
 
-<div class="terms-body">
+<div class="content-root">
     <div class="long">
         <button class="tosides-1 text-wbd">
             <i class="fa fa-arrow-right"></i>
@@ -251,77 +266,89 @@
         </button>
     </div>
     
-        <div class="terms-row">
+        <div class="content">
+            <div class="content-self">
+                <h1 id="welcome">Welcome!</h1>
+<p>I was having some fun browsing /r/localLLaMA and I saw that llama3 popped up!</p>
+<p>At the time it was real good for its parameter size and just in general, so I wanted to try to run it!</p>
+<p>Of course, I could&rsquo;ve ran it in a Q5 quantized form on my desktop with a 1080ti, however, I felt like using my school funding to use. (T.T 78k per year)</p>
+<h1 id="scus-wave-hpc-cluster">SCU&rsquo;s WAVE HPC cluster</h1>
+<p>As a student in the school of engineering and having taken courses that utilized resources from the HPC, I was able to grab a hold of nodes that included NVIDIA Tesla V100 32G (up to 2x) or AMD Instinct MI100 GPU (up to 8x!).</p>
+<p>Because there is often more support (and less issues with NVIDIA) regarding LLM frameworks and libraries I chose to use the V100.</p>
+<h1 id="setup">Setup</h1>
+<p>ollama backend + ngrok port forwarding + sillytavern frontend</p>
+<ol>
+<li>Manual install of ollama in .local/bin</li>
+<li>srun onto your favorite V100 gpu instance</li>
+<li>ollama serve &amp;  and  ollama run llama3</li>
+<li>ngrok localhost:11434 and port forward to your favorite domain</li>
+<li>connect to silly tavern!</li>
+<li>?</li>
+</ol>
+<h1 id="profit">Profit</h1>
+<p>Now you can run your very own AI therapist! (at the cost of your hardware and budget!)</p>
+<p><img src="/post_img/HPC_LLM/rodion.png" alt="photo" title="Rodions Troubles"></p>
+<p><img src="/post_img/HPC_LLM/job.png" alt="photo" title="Typical CS grad Troubles"></p>
+
+            </div>
             
-            <div class="terms-root">
-                
-                
-
-
-
-<div class="card-large">
-    <div class="card-large-img">
-
-        
-                <img class="lazyload" src="/images/thumbnail.gif" data-src="/thumbnails/pain.jpg" alt='image loading failed'>
-        
-    </div>
-    <div class="card-large-content">
-        <div class="up-title"><a href="/posts/hardest_class/">The Hardest Class I took was in Middle School</a></div>
-        <div class="up-date">
-            <span class="no-wrap"><i class="fa fa-calendar"></i> postedOn: 2024-4-7 &nbsp;</span>
-            <span class="no-wrap"><i class="fa fa-calendar-check-o"></i> updatedOn: 2024-4-7 &nbsp;</span>
-            <span class="no-wrap"><i class="fa fa-folder"></i>
-                
-                    includedIn:
+                <div class="tags">
                     
-                        <a href='
-                                        /categories/robin
+                    <span class="down-type-item">
+                        <div class="type-text">
+                            <a href='
+                                        /tags/llm
                                     '>
-                                Robin
+                                <i class="fa fa-tag"></i> LLM
                             </a>
-                
-            </span>
+                        </div>
+                    </span>
+                    
+                    <span class="down-type-item">
+                        <div class="type-text">
+                            <a href='
+                                        /tags/hpc
+                                    '>
+                                <i class="fa fa-tag"></i> HPC
+                            </a>
+                        </div>
+                    </span>
+                    
+                </div>
+            
         </div>
-        <div class="down-summary">Right now, I’m a 4th year computer science and engineering student at SCU.
-I’ve taken many foundational and theoretical/technical courses that had a good amount of difficulty to them. Out of all my courses at SCU, these were probably the most challenging:
-Machine Learning + Data Mining – COEN140 – David Anastasiu Compilers – Coen175 – Darren Atkinson Digital Logic Design – ELEN 160 – Mamudur Rahman</div>
-    </div>
-    <div class="card-readmore">
-        <a href="http://localhost:1313/posts/hardest_class/">
-            <span><i class="fa fa-arrow-right"></i></span>
+        
+            
+                <div class="pre-next">
+                    
+    
+        
+        <a href="http://localhost:1313/posts/hardest_class/" class="pre pre-last" style="text-align: center;">
+            <span class="pre-icon"><i class="fa fa-hand-o-left"></i></span>
+            <div class="pre-title-root">
+                <span>The Hardest Class I took was in Middle School</span>
+            </div>
         </a>
-    </div>
-</div>
-
-
-
+        
+    
     
 
-
-    <div class="down-type">
+                </div>
+            
         
-        <span class="down-type-item">
-            <div class="shuxian-root">
-                <div class="shuxian"></div>
-            </div>
-            <div class="type-text">
-                <a href='
-                            /tags/reflection
-                        '>
-                    <i class="fa fa-tag"></i> reflection
-                </a>
-            </div>
-        </span>
-        
-    </div>
+    
+</div>
 
-<div class="dang"></div>
-            </div>
+    
+        <div class="content-last">
+            
+                <button class="aixin content-last-item efct-button">
+                    <i class="fa fa-heart"></i>
+                </button>
+            
             
         </div>
     
-</div>
 
 
             </div>
@@ -406,31 +433,34 @@ Machine Learning + Data Mining – COEN140 – David Anastasiu Compilers – Coe
 
 
 
+    
+    
+
 
 <div class="other">
     <div class="other-up">
-        <div class="other-qita text-wbd">latest Posts</div>
+        <div class="other-qita text-wbd">Related Posts</div>
         <div class="xian"></div>
     </div>
     <div class="list">
         
-            <a href="http://localhost:1313/posts/hpc_llm/">
+            <a href="http://localhost:1313/posts/lupinstory/">
                 
-<a href="http://localhost:1313/posts/hpc_llm/">
+<a href="http://localhost:1313/posts/lupinstory/">
     <div class="list-item">
         <div class="icon-other-root">
             
-                <div class="icon-other" style="background-image: url( /thumbnails/meta-ollama-llama3.png );"></div>
+                <div class="icon-other" style="background-image: url( /thumbnails/maple.png );"></div>
             
         </div>
         <div class="list-right">
             <div class="other-title">
-                Running a Large Language Model on my School Supercomputer
+                LupinStory
             </div>
-            <div class="other-summary">Welcome! I was having some fun browsing /r/localLLaMA and I saw that llama3 popped up!
-At the time it was real good for its parameter size and just in general, so I wanted to try to run it!
-Of course, I could&rsquo;ve ran it in a Q5 quantized form on my desktop with a 1080ti, however, I felt like using my school funding to use.</div>
-            <div class="other-date">2024-5-22</div>
+            <div class="other-summary">LupinStory I tried to recreate a funny little Maplestory game that I played as a little kid.
+It was called MonkeyStory.
+Maplestory was a big part of my childhood, I played a ton of it with my brother and I remember revolving a lot a lot of time around it.</div>
+            <div class="other-date">2024-4-1</div>
         </div>
     </div>
 </a>
@@ -453,28 +483,6 @@ Of course, I could&rsquo;ve ran it in a Q5 quantized form on my desktop with a 1
 I’ve taken many foundational and theoretical/technical courses that had a good amount of difficulty to them. Out of all my courses at SCU, these were probably the most challenging:
 Machine Learning + Data Mining – COEN140 – David Anastasiu Compilers – Coen175 – Darren Atkinson Digital Logic Design – ELEN 160 – Mamudur Rahman</div>
             <div class="other-date">2024-4-7</div>
-        </div>
-    </div>
-</a>
-            </a>
-        
-            <a href="http://localhost:1313/posts/lupinstory/">
-                
-<a href="http://localhost:1313/posts/lupinstory/">
-    <div class="list-item">
-        <div class="icon-other-root">
-            
-                <div class="icon-other" style="background-image: url( /thumbnails/maple.png );"></div>
-            
-        </div>
-        <div class="list-right">
-            <div class="other-title">
-                LupinStory
-            </div>
-            <div class="other-summary">LupinStory I tried to recreate a funny little Maplestory game that I played as a little kid.
-It was called MonkeyStory.
-Maplestory was a big part of my childhood, I played a ton of it with my brother and I remember revolving a lot a lot of time around it.</div>
-            <div class="other-date">2024-4-1</div>
         </div>
     </div>
 </a>
@@ -534,6 +542,46 @@ As you have read in the About Me page, I have an interest in a wide variety of s
 
             </div>
         </div>
+    </div>
+</div>
+
+    
+
+<div class="sponsor">
+    <div class="sponsor-self">
+        <div class="sponsor-title">Sponsor</div>
+        <div class="sponsor-btn">
+            
+                
+                    
+                        <div class="sponsor-btn-1 border-r">Wechat</div>
+                    
+                
+                
+            
+                
+                    
+                        <div class="sponsor-btn-2 border-l">Alipay</div>
+                    
+                
+                
+            
+        </div>
+        
+        <div class="sponsor-img">
+            
+                
+                    <img class="sponsor-img-1" src="/images/sponsor/wechat.jpeg" alt="">
+                
+                
+            
+                
+                    <img class="sponsor-img-2" src="/images/sponsor/alipay.jpeg" alt="" style="display: none;">
+                
+                
+            
+        </div>
+        <div class="cancel efct-button">cancel</div>
     </div>
 </div>
 
