@@ -6,8 +6,11 @@ draft = true
 
 # Who are you Robin ?
 
-I'm currently a senior studying Computer Science and Engineering (CSEN) at Santa Clara University.
-I don't entirely have a focus on what I want to do in the future, so I am exploring them all during my time as a student.
+I'm currently a first year Master's student studying Computer Science and Engineering (CSEN) at Santa Clara University. \
+
+I'm also a second generation immigrant. \
+
+I don't entirely have a focus on what I want tohug do in the future, so I am exploring them all during my time as a student.
 
 # What are some of your academic / technical interests?
 I have a multitude of interests, but not enough time to explore them to a high degree:

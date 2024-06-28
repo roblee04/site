@@ -39,6 +39,7 @@ In English you could say:
 - hello
 - what's up
 - sup dawg
+
 And the list goes on. But, what if you wanted to greet anyone regardless of language? There ain't no way you're going to be learning 10+ language greetings. Why not just *wave hello* ? That seems pretty easy.
 And to me, that is a form of intermediate representation. 
 
@@ -56,15 +57,15 @@ https://www.technologyreview.com/2015/09/17/166211/king-man-woman-queen-the-marv
 
 @tab Beauty of Math
 
-Mandelbrot Set, fibonacci pyramid
+Mandelbrot Set, fibonacci pyramid.
 
-Randomness leading to Order.
+Randomness leading to Order. 
 
 @tab How to be Good in an Unjust World
 
-What are you motivated by?
+What are you motivated by? 
 
-Spirituality without structured religion.
+Spirituality without structured religion. Do you believe in Life after Death?
 
 :::
 
